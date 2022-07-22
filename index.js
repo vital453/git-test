@@ -8,6 +8,27 @@ const multer = require('multer');
 const path = require('path');
 
 
+var express = require('express');
+var mysql = require('mysql');
+var cors = require('cors');
+var bodyparser = require('body-parser');
+var app = express();
+const multer = require('multer');
+const path = require('path');
+var express = require('express');
+var mysql = require('mysql');
+var cors = require('cors');
+var bodyparser = require('body-parser');
+var app = express();
+const multer = require('multer');
+const path = require('path');
+var express = require('express');
+var mysql = require('mysql');
+var cors = require('cors');
+var bodyparser = require('body-parser');
+var app = express();
+const multer = require('multer');
+const path = require('path');
 
 var storage = multer.diskStorage({
     destination: function (req, file, cb) {
